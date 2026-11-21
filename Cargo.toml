@@ -9,5 +9,10 @@ license = "Apache-2.0"
 readme = "README.md"
 repository = "https://github.com/0xhappyboy/f_pdf"
 
-
 [dependencies]
+flate2 = "1.1.11"
+image = { version = "0.25.6", default-features = false, features = ["png", "jpeg", "gif", "bmp", "webp"] }
+
+[dev-dependencies]
+ureq = "3.5.2"
+
